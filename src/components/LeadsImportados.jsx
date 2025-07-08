@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Lead from './components/Lead';
 
-const GOOGLE_SHEETS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzJ_WHn3ssPL8VYbVbVOUa1Zw0xVFLolCnL-rOQ63cHO2st7KHqzZ9CHUwZhiCqVgBu/exec?v=getLeads';
+const GOOGLE_SHEETS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycby8vujvd5ybEpkaZ0kwZecAWOdaL0XJR84oKJBAIR9dVYeTCv7iSdTdHQWBb7YCp349/exec?v=getLeads';
 
 const Leads = ({ leads, usuarios, onUpdateStatus, transferirLead, usuarioLogado }) => {
   const [selecionados, setSelecionados] = useState({}); // { [leadId]: userId }
